@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity2">
+
+    <!-- EditText for number 1 -->
+    <EditText
+        android:id="@+id/etNum1"
+        android:layout_width="420dp"
+        android:layout_height="53dp"
+        android:background="#6A6A6A"
+        android:hint="Enter number 1"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- EditText for number 2 -->
+
+    <!-- Add button -->
+
+    <!-- Other buttons for Subtract, Multiply, Divide, Power, etc. -->
+
+    <!-- Add other buttons with similar constraints... -->
+
+    <!-- TextView for displaying the result -->
+
+    <EditText
+        android:id="@+id/etNum2"
+        android:layout_width="413dp"
+        android:layout_height="58dp"
+        android:background="#6A6A6A"
+        android:hint="Enter number 2"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@id/etNum1" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF9800"
+        android:text="Add"
+        app:layout_constraintTop_margin="16dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="143dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnMultiply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF9800"
+        android:text="Multiply"
+        app:layout_constraintTop_margin="16dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <Button
+        android:id="@+id/btnDivide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF9800"
+        android:text="Divide"
+        app:layout_constraintTop_margin="16dp"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <Button
+        android:id="@+id/btnSubtract"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="#FF9800"
+        android:text="Subtract"
+        app:layout_constraintTop_margin="8dp"
+        app:layout_constraintTop_toBottomOf="@id/etNum2"
+        tools:layout_editor_absoluteX="307dp" />
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="417dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="268dp"
+        android:background="#6A6A6A"
+        android:gravity="center"
+        android:text="Result"
+        android:textSize="18sp"
+        app:layout_constraintTop_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@id/btnSubtract"
+        tools:layout_editor_absoluteX="-6dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

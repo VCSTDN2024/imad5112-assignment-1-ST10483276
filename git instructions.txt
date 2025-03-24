@@ -1,0 +1,13 @@
+git init 
+git add . 
+git commit -m "asg" 
+git branch -M main 
+git remote add origin .add. 
+
+git push -u origin main --force
+
+=========================================== 
+
+git add. 
+git commit -m "msg2" 
+git push -u origin main --force 
