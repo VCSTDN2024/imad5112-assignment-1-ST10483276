@@ -5,7 +5,7 @@
 - **Course**: IMAD5112
 
 ## Links
-- **GitHub Repository**: [Repository URL]
+- **GitHub Repository**: (https://github.com/VCSTDN2024/imad5112-assignment-1-ST10483276/tree/main/Rightbites)
 - **YouTube Video**: https://youtu.be/fFfSDJwkU3o?si=6DOCbQ7dD8t49WYc
 ```
 # Project Overview
