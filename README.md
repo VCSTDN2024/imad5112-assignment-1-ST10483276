@@ -1,3 +1,6 @@
+
+# Welcome friendly user ( *︾▽︾)
+
 # App Name:The Right bite
 
 # Description:
@@ -23,6 +26,27 @@ Suggestions include both homemade recipes and takeout options, so you can decide
 
 - 🥗 Dietary Preferences & Health-Conscious Options
 Whether you’re following a specific diet or have food allergies, The Right Bite ensures recommendations fit your needs.
+
+# food example and layout
+| Time          | Meal  | 
+|----------     |----------|
+| Morning(breakfast)     | Futute life cereal|
+| Mid Morning(light snack) | Peanuts   |
+| Afternoon (Lunch)   | Toasted sandwich   |
+| Afternoon (snack)   | Sweets   |
+| Dinner  (Course)    | Steak    |
+| After Dinner(snack) | Ice cream|
+
+empty layout of the data that needs to be filled in:
+| Time          | Meal  | 
+|----------     |----------|
+| Morning(breakfast)     | input meal |
+| Mid Morning(light snack) | input meal   |
+| Afternoon (Lunch)   | input meal   |
+| Afternoon (snack)   | input meal   |
+| Dinner  (Course)    | input meal    |
+| After Dinner(snack) | input meal|
+
 
 # Get healthy meal ideas packed with nutritional insights.
 
