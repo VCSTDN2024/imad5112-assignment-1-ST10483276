@@ -1,4 +1,4 @@
-# [App Title]
+ # [App Title]
 - **Developer**: Jason Barasa
 - **Student Number**: ST10483276
 - **Group**: Group 1
@@ -144,8 +144,8 @@ While the current version of the app provides the core functionality, there are 
 ```markdown
 ## List of Figures
 
-- **Figure 1**: Screenshot of the app's home screen.
-- **Figure 2**: Screenshot of the user profile screen.
+[Screenshot 2025-03-30 124048](https://github.com/your-repo/your-project/blob/main/path/to/screenshot.png)
+
 ```
 
 ---
