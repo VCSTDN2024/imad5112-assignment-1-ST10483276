@@ -1,4 +1,4 @@
- # [App Title]
+ # [The Right Bite]
 - **Developer**: Jason Barasa
 - **Student Number**: ST10483276
 - **Group**: Group 1
